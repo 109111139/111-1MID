@@ -30,13 +30,13 @@ namespace _111_1MID {
 
         protected void second_list()
         {
-            int a = 
+            int a = 1;
             for(int i = 0; i < s_Area.GetLength(1); i++)
                 {
                 ListItem x = new ListItem();
                 x.Text = s_Area[a,i];
                 x.Value = s_Area[a,i];
-                dpi_City.Items.Add(x);
+                dpi_Area.Items.Add(x);
             }
         }
 
