@@ -15,6 +15,20 @@ namespace _111_1MID {
         };
 
         protected void Page_Load(object sender, EventArgs e) {
+            if (!IsPostBack)
+            {
+                for(int i = 0;i< s_City.Length; i++)
+                {
+                    ListItem x = new ListItem();
+                    x.Text = s_City[i];
+                    x.Value = s_City[i];
+                    dpi_City.Items.Add(x);
+                }
+            }
+        }
+
+        protected void dpi_City_SelectedIndexChanged(object sender, EventArgs e)
+        {
 
         }
     }

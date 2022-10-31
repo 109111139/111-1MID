@@ -10,6 +10,9 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            <h1>123456</h1>
+            <asp:DropDownList ID="dpi_City" runat="server" AutoPostBack="True" OnSelectedIndexChanged="dpi_City_SelectedIndexChanged"></asp:DropDownList>
+            <asp:DropDownList ID="dpi_Area" runat="server"></asp:DropDownList>
         </div>
     </form>
 </body>
