@@ -24,12 +24,25 @@ namespace _111_1MID {
                     x.Value = s_City[i];
                     dpi_City.Items.Add(x);
                 }
+                second_list();
+            }
+        }
+
+        protected void second_list()
+        {
+            int a = 
+            for(int i = 0; i < s_Area.GetLength(1); i++)
+                {
+                ListItem x = new ListItem();
+                x.Text = s_Area[a,i];
+                x.Value = s_Area[a,i];
+                dpi_City.Items.Add(x);
             }
         }
 
         protected void dpi_City_SelectedIndexChanged(object sender, EventArgs e)
         {
-
+            second_list();
         }
     }
 }
