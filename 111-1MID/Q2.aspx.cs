@@ -30,7 +30,8 @@ namespace _111_1MID {
 
         protected void second_list()
         {
-            int a = 1;
+            int a =dpi_Area.SelectedIndex;
+            dpi_Area.Items.Clear();
             for(int i = 0; i < s_Area.GetLength(1); i++)
                 {
                 ListItem x = new ListItem();
