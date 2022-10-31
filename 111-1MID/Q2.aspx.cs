@@ -30,7 +30,7 @@ namespace _111_1MID {
 
         protected void second_list()
         {
-            int a = s_City.SelectedIndex;
+            int a = 1;
             for(int i = 0; i < s_Area.GetLength(1); i++)
                 {
                 ListItem x = new ListItem();
