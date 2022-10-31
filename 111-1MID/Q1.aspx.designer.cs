@@ -78,12 +78,39 @@ namespace _111_1MID
         protected global::System.Web.UI.WebControls.TextBox tb_Phone;
 
         /// <summary>
-        /// Panel2 控制項。
+        /// btn_Submit 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel2;
+        protected global::System.Web.UI.WebControls.Button btn_Submit;
+
+        /// <summary>
+        /// pl_Msg 控制項。
+        /// </summary>
+        /// <remarks>
+        /// 自動產生的欄位。
+        /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel pl_Msg;
+
+        /// <summary>
+        /// lb_Msg 控制項。
+        /// </summary>
+        /// <remarks>
+        /// 自動產生的欄位。
+        /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lb_Msg;
+
+        /// <summary>
+        /// LinkButton1 控制項。
+        /// </summary>
+        /// <remarks>
+        /// 自動產生的欄位。
+        /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButton1;
     }
 }

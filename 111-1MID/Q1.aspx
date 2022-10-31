@@ -21,9 +21,11 @@
                 <br/>
                 連絡電話:(選填)<asp:TextBox ID="tb_Phone" runat="server" Width="300px" Height="20px"></asp:TextBox>
                 <br/>
+                <asp:Button ID="btn_Submit" runat="server" Text="掛號" Width="80px" Visible="False" />
             </asp:Panel>
-            <asp:Panel ID="Panel2" runat="server">
-
+            <asp:Panel ID="pl_Msg" runat="server" Width="500px" BorderWidth="1px" Visible="False">
+                <asp:Label ID="lb_Msg" runat="server" Text=""></asp:Label>
+                <asp:LinkButton ID="LinkButton1" runat="server">重新填寫</asp:LinkButton>
             </asp:Panel>
         </div>
     </form>
