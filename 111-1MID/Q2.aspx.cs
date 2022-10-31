@@ -30,7 +30,7 @@ namespace _111_1MID {
 
         protected void second_list()
         {
-            int a =dpi_Area.SelectedIndex;
+            int a = dpi_City.SelectedIndex;
             dpi_Area.Items.Clear();
             for(int i = 0; i < s_Area.GetLength(1); i++)
                 {
